@@ -1,0 +1,1 @@
+{"version":3,"sources":["Container.module.css"],"names":[],"mappings":"AAAA,4BACI,WAAY,CACZ,aAAc,CACd,iBAAkB,CAClB,qBAAuB,CACvB,iBACJ","file":"main.c78796c4.chunk.css","sourcesContent":[".container{\r\n    width: 400px;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n    border: solid black 1px;\r\n    border-radius: 8px;\r\n}"]}
