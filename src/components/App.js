@@ -19,12 +19,10 @@ class App extends Component {
     }
   };
 
-  onHandleClick = e => {
-    const name = e.target.name;
-    this.setState({
-      [name]: this.state[name] + 1
-    });
-  };
+  onHandleClick = (name) =>
+    this.setState((preState) => ({
+      [name]: preState[name] + 1,
+    }));
 
   render() {
     return (
